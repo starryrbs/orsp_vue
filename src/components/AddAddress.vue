@@ -55,6 +55,26 @@
         </div>
       </div>
     </div>
+    <!--提示地址模态框-->
+    <div class="modal fade" id="tishiDizhi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div>添加地址成功</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="xiaoshiDizhi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div>添加地址失败</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 </template>
@@ -135,10 +155,11 @@ export default {
       })
         .then(function (res) {
           if (res.data.code==="287"){
-            alert("添加地址成功");
+                $("#tishiDizhi").modal("show")
             window.location.reload()
           } else {
-            alert("添加地址失败");
+            $("#xiaoshiDizhi").modal("show")
+            window.location.reload()
           }
         })
         .catch(function (error) {
