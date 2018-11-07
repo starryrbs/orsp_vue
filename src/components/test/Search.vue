@@ -13,7 +13,6 @@
                <ul style="position: absolute;z-index: 500">
                  <li @click="sort(1)">价格从低到高</li>
                  <li @click="sort(0)">价格从高到低</li>
-
                </ul>
              </div>
            </li>
@@ -188,7 +187,7 @@
   }
   .price{
     width: 130px;
-    height: 160px;
+    height: 80px;
     background-color: white;
     position: relative;
     /*left: 291px;*/
@@ -207,7 +206,7 @@
   }
   .price li{
     width: 100%;
-    height: 25%;
+    height: 50%;
     list-style: none;
     /*background-color: red;*/
     line-height: 39px;
