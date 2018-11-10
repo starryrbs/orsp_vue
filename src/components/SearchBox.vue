@@ -193,5 +193,9 @@ export default {
       display: none;
     }
   }
-
+  @media only screen and (min-width: 720px) {
+    .search-box .box .box-text {
+      width: 398px;
+    }
+  }
 </style>
