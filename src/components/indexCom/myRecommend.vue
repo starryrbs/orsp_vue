@@ -97,6 +97,17 @@
 </script>
 
 <style scoped>
+  @media only screen and (min-width: 240px) and (max-width: 580px){
+    .like-box-container{
+      margin:0!important;
+    }
+.lun-bo{
+  display: none;
+}
+.like>div{
+  width: 100px;
+}
+  }
 .like-box-container{
   width: 80%;
   height: 300px;

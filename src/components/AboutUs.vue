@@ -77,7 +77,6 @@
               <h6>3. 基于Vue.js完成页面组件的设计，组件的传参和路由的跳转。</h6>
               <h6>4. 独立完成个人中心模块个人信息修改功能，ORSP下载模块。</h6>
               <h6>5. 协同完成购物车功能，订单详情，查看订单状态等功能。</h6>
-
             </a>
             </p>
             <p>
@@ -176,6 +175,7 @@
       }
     }
   }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -403,10 +403,9 @@
   .help-main .text1 p {
     padding: 0;
     margin: 15px 0 0 0;
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: left;
   }
-
   #footer {
     width: 100%;
     clear: both;

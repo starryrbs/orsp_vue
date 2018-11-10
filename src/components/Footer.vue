@@ -6,27 +6,6 @@
     </div>
     <ul class="word-container">
 
-      <!--
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      -->
 
       <li>
         <ul>
@@ -105,25 +84,7 @@
                 <a rel="nofollow" data-code="1000043114-1" href="//survey.gome.com.cn/wj/762050349c.html" target="_blank">用户反馈</a>
             </p>
         </span>
-          <div class="qrcode-section">
-            <em class="code-sm wx">
-              <i></i>
-              <p>公众号</p>
-              <div style="display: none;"><img src="//gfs10.gomein.net.cn/T1kPDvBvZj1RCvBVdK.jpg"><i class="icon-triangle"></i></div>
-            </em>
-            <em class="code-sm wap">
-              <i></i>
-              <p>手机站点</p>
-              <div style="display: none;"><img src="//gfs13.gomein.net.cn/T1gGKvBshT1RCvBVdK.jpg"><i class="icon-triangle"></i></div>
-            </em>
-            <em class="code-bg app">
-              <i>
-                <a data-code="1000043112-0" href="//shouji.gome.com.cn/" target="_blank"><img src="//gfs11.gomein.net.cn/T1sIDvB7hj1RCvBVdK.jpg"></a>
 
-              </i>
-              <p>扫描下载客户端</p>
-            </em>
-          </div>
           <ul>
             <li><a data-code="1000043124-0" href="http://igome.com/" target="_blank" rel="nofollow">ORSP</a></li>
             <li><a data-code="1000043124-1" href="//www.gomegj.com/" target="_blank">交换管家</a></li>
@@ -176,7 +137,9 @@
     color: #333333 !important;
     margin-top: 40px;
   }
-
+  .center-div>div:first-child>img{
+    width: 70%;
+  }
   div.row {
     border-top: 1px solid grey;
     margin-top: 20px;
@@ -322,7 +285,7 @@
   }
   #gome-foot-box {
     position: relative;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px 0 0;
     background: #f7f7f7;

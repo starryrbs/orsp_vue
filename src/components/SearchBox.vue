@@ -94,7 +94,6 @@ export default {
       /*background-color: yellow;*/
       height: 64px;
       float: left;
-
     }
     .search-box .logo{
       width: 94px;
@@ -111,7 +110,7 @@ export default {
       float: right;
     }
     .search-box .box .box-text{
-      width: 384px;
+      width: 100%;
       height: 39px;
       border: 3px solid rgb(206, 37, 22);
       /*box-sizing: border-box;*/
@@ -119,7 +118,7 @@ export default {
     }
     .search-box .box .input-txt{
       text-indent: 5px;
-      width: 328px;
+      width: 80%;
       padding: 8px 0 8px 10px;
       border: none;
       font-size: 12px;
@@ -144,6 +143,12 @@ export default {
       position: relative;
       top: -2px;
       left: 1px;
+    }
+    .title-container{
+      display: none;
+    }
+    div.box-text{
+      background-color: white!important;
     }
   }
   @media only screen and (min-width: 240px) and (max-width: 580px){
@@ -183,6 +188,9 @@ export default {
     .search-box .box .box-text .btn-search span{
       position: relative;
       top: -2px;
+    }
+    .title-container{
+      display: none;
     }
   }
 

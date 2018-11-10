@@ -2,7 +2,7 @@
   <nav class="navbar navbar-default navbar-inverse" style="border-radius: 0; min-height: 30px; margin-bottom: 0;">
     <div class="container-fluid" >
       <!-- Brand and toggle get grouped fsor better mobile display -->
-      <div class="navbar-header">
+      <div class="navbar-header" style="margin: 0;">
         <button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
