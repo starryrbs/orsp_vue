@@ -161,12 +161,12 @@ export default {
             if (res.data.code=="208"){
               vm.telephone_tip="手机号已被注册,请直接登录";
             }else if (res.data.code=="408"){
-              axios.post(vm.global.serverPath+'/user/yezheng/',
-                {'phone': vm.telephone,
-                  'yecode':vm.sms_text
-                })
-                .then(function (res) {
-                  if (res.data.code=="200"){
+              // axios.post(vm.global.serverPath+'/user/yezheng/',
+              //   {'phone': vm.telephone,
+              //     'yecode':vm.sms_text
+              //   })
+              //   .then(function (res) {
+              //     if (res.data.code=="200"){
                     axios.post(vm.url,
                       {'telephone': vm.telephone, 'password': vm.password,'user_name':vm.username
                       },{
@@ -229,15 +229,15 @@ export default {
             // sessionStorage.setItem('token',res.headers.token)
             //控制台打印请求成功时返回的数据
             //bind(this)可以不用
-          }.bind(this))
-          .catch(function (err) {
-            if (err.response) {
-              //控制台打印错误返回的内容
-            }
-            //bind(this)可以不用
-          }.bind(this))
+          // }.bind(this))
+          // .catch(function (err) {
+          //   if (err.response) {
+          //     //控制台打印错误返回的内容
+          //   }
+          //   //bind(this)可以不用
+          // }.bind(this))
 
-      }
+      // }
     },
     sendVerificationCode:function () {
       let vm=this
